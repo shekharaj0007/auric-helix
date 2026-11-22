@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+data/stop_log.jsonl
+data/stop_reports/
+site_mill_src.html
+docs/build_hotmix_report.py
+docs/hotmix_chapters.py
+docs/Monali_Hot_Mix_Plant_BTP_Report.*
+docs/hotmix_figures/
+docs/hotmix_media/
+.streamlit/credentials.toml
+*.log

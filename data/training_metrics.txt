@@ -1,0 +1,14 @@
+Training metrics on a held-out 20% of the simulated milling dataset.
+These numbers are NOT laboratory profilometer / microscope results.
+
+mae_ra_um = 0.0347
+mae_rq_um = 0.0471
+mae_rz_um = 0.1910
+mae_rt_um = 0.2372
+mae_chatter_hz = 1.1003
+mae_vb_mm = 0.0023
+mae_rate_um_s = 0.3563
+mae_rul_s = 0.4156
+auc_risk = 1.0000
+n_train = 2304.0000
+n_test = 576.0000

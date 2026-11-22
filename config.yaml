@@ -1,0 +1,21 @@
+process:
+  material: Al6061
+  operation: end_milling
+  tool_diameter_mm: 10
+  teeth: 4
+  spindle_rpm: 3000
+  feed_mm_per_tooth: 0.12
+  depth_of_cut_mm: 1.0
+  ra_spec_um: 1.6
+
+acquisition:
+  source: http               # simulator | serial | http
+  sample_rate_hz: 5000
+  window_seconds: 0.25
+  serial_port: COM3
+  serial_baud: 115200
+  http_url: https://temporary-speedy-azure-d4iojfc.vercel.app
+
+dashboard:
+  refresh_ms: 400
+  horizon_seconds: 30
