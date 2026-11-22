@@ -7,10 +7,15 @@ Rajshekhar · Piyush Jatoliya · Supervisor: Dr. Mahavir Singh
 
 ## Live sites
 
-| Site | What it is | URL |
+| Site | Platform | URL |
 |---|---|---|
-| **AuricHelix Mill** | Browser CNC (Cycle start, Hold, DRO, G-code) | _deploying…_ |
-| **AuricHelix Monitor** | Early surface-integrity warning dashboard | _deploying…_ |
+| **AuricHelix Mill** | GitHub Pages | https://shekharaj0007.github.io/auric-helix/ |
+| **AuricHelix Monitor** | Binder (MyBinder) | https://mybinder.org/v2/gh/shekharaj0007/auric-helix/main?urlpath=monitor/ |
+
+The mill is the browser CNC (Cycle start, Hold, DRO, G-code). The monitor is the early surface-integrity warning dashboard from the project report. The first Binder launch can take a few minutes while the environment builds; later launches are faster.
+
+Streamlit Community Cloud one-click (if you sign in with GitHub):  
+https://share.streamlit.io/deploy?repository=shekharaj0007/auric-helix&branch=main&mainModule=dashboard/app.py
 
 Report (this description follows it): [`docs/Machining_Integrity_Monitor_Project_Report.pdf`](docs/Machining_Integrity_Monitor_Project_Report.pdf)
 
